@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width: 60%;
+    font-family: sans-serif;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.userInput {
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(55, 55, 55);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px 2px rgb(194, 194, 194);
+}
+
+.userInput::placeholder {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.colors {
+    display: flex;
+    width: 70%;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.btns {
+    text-align: right;
+    color: rgb(51, 50, 50);
+}
+
+.fas {
+    font-size: 22px;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.add {
+    color: rgb(70, 157, 70);
+    border: 2px solid rgb(70, 157, 70);
+}
+
+.remove {
+    color: rgb(223, 81, 81);
+    border: 2px solid rgb(223, 81, 81);
+}
+
+.listBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+
+   margin-top: 30px;
+}
+
+.listItem {
+    padding: 10px 50px;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 0 gray;
+}
